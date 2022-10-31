@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void precionado(View view) {
         String n = nome.getText().toString();
-        String frase = "É um prazer te conhecer, "+ n + "!!";
+        String frase = getString(R.string.finalizando) + ", "+ n + "!!"; //serve para importar uma string ja pronta
         respota.setText(frase);
     }
 }

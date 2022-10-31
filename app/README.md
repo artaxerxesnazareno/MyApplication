@@ -29,3 +29,16 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ```
+
+## Definindo Tradções
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+```java
+ public void precionado(View view) {
+        String n = nome.getText().toString();
+        String frase = getString(R.string.finalizando) + ", "+ n + "!!"; //    getString(R.string.finalizando) serve para importar uma string ja pronta
+        respota.setText(frase);
+    }
+```

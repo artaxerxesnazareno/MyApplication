@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">My name</string>
+    <string name="nome">What\'s your name?</string>
+    <string name="botao">Ready</string>
+    <string name="respota">Answer</string>
+    <string name="finalizando">Nice to meet you</string>
 </resources>
