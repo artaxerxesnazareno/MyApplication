@@ -1,3 +1,8 @@
+# Andorid
+## Ligando codigo java com componentes da view
+![img.png](img.png)
+
+```java
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,13 +23,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         nome = (EditText) findViewById(R.id.txtId); // liga a variavel nome ao componente com o id "txtId"
-        respota = (TextView) findViewById(R.id.respostaId);
+        respota = (TextView) findViewById(R.id.respostaId); // liga a variavel resposta ao componente com o id "respostaId"
     }
 
 
-    public void precionado(View view) {
-        String n = nome.getText().toString();
-        String frase = "É um prazer te conhecer, "+ n + "!!";
-        respota.setText(frase);
-    }
 }
+```
